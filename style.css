@@ -1,0 +1,359 @@
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+.main-header {
+  width: 100%;
+  float: left;
+  background-image: url(img/pt.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+.main-header-about-us {
+  width: 100%;
+  float: left;
+  background-image: url(img/agile.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+.banner-content {
+  margin-top: 100px;
+}
+
+.topnav-container {
+  width: 100%;
+  float: left;
+  display: flex;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+.mobi {
+  text-decoration: none;
+}
+
+#topnav {
+  width: 60%;
+  float: right;
+
+  margin-left: 450px;
+}
+#topnav ul li {
+  display: inline;
+}
+#topnav ul li a {
+  float: right;
+  text-decoration: none;
+  color: rgb(96, 124, 216);
+  padding: 10px 20px 0px 5px;
+  font-weight: bolder;
+}
+#topnav ul li a:hover {
+  text-decoration: underline;
+  color: rgb(10, 179, 10);
+}
+.banner-content h1 {
+  text-transform: uppercase;
+  padding-left: 20px;
+  font-family: Georgia, serif;
+  color: aliceblue;
+}
+.page {
+  width: 100%;
+  float: left;
+  display: flex;
+}
+.page div:first-child {
+  background-color: grey;
+  width: 20%;
+  padding-left: 5px;
+  margin-right: 20px;
+}
+.page div:first-child p {
+  color: #006699;
+  font-weight: bold;
+}
+.content div:last-child {
+  padding-right: 10px;
+  margin-right: 20px;
+}
+.content {
+  background-color: #669999;
+  width: 80%;
+  display: flex;
+}
+
+#post {
+  width: 60%;
+  height: 400px;
+  padding-left: 20px;
+  margin-left: 10px;
+  background-color: #669999;
+}
+#post h1,
+h2 {
+  color: #e2edd1;
+  text-decoration: underline grey;
+  text-transform: capitalize;
+}
+#post img {
+  width: 100%;
+}
+.content h4 {
+  padding: 0px 0px 0px 20px;
+}
+
+.sub-middle-page {
+  width: 100%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  background-color: #f7f9fc;
+}
+.services {
+  width: 400px;
+  height: 530px;
+  float: left;
+}
+.sub-middle-page .services img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+}
+.sub-middle-page div:last-child {
+  margin-left: 20px;
+}
+.sub-middle-page div:first-child {
+  margin-right: 20px;
+}
+.middle-page h1 {
+  text-align: center;
+}
+.middle-page {
+  width: 100%;
+  float: left;
+  background-color: #f7f9fc;
+}
+.services p {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.services h3 {
+  font-family: "Roboto", sans-serif;
+}
+.page div:first-child p {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/*footer*/
+.footer-container {
+  width: 100%;
+  float: left;
+}
+.footer-content {
+  width: 100%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  background-color: #9ca19d;
+}
+.footer-content div:first-child h3 {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-left: 0px;
+  font-weight: 300px;
+  color: #ffffff;
+}
+.footer-content div:first-child p {
+  font-family: Times, Times New Roman, serif;
+  color: #000000;
+}
+.footer-copyright {
+  background-color: #c2ccc4;
+  padding: 10px 5px 10px 10px;
+  color: #0065ff;
+}
+.rows {
+  margin-right: 50px;
+  width: 20%;
+}
+.social-icons .icon {
+  list-style: none;
+  display: inline;
+}
+.email {
+  list-style: none;
+  margin-top: 10px;
+  margin-left: 7px;
+}
+.email a {
+  text-decoration: none;
+  color: white;
+}
+.rows .link {
+  list-style: none;
+  text-decoration: none;
+  padding-top: 7px;
+  font-size: 20px;
+}
+.rows .link a {
+  text-decoration: none;
+  color: white;
+}
+.rows h3 {
+  padding-left: 30px;
+  color: white;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+/*footer icons*/
+.social-icons .icon .fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+.social-icons .icon .fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.social-icons .icon .fa-instagram {
+  background: #125688;
+  color: white;
+}
+.social-icons .icon .fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.social-icons .icon .fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.social-icons .icon .fa-twitter {
+  background: #55acee;
+  color: white;
+}
+/*about us page*/
+.column {
+  float: left;
+  width: 22.5%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.scrolling-text {
+  font-style: italic;
+  color: #006699;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.about-body {
+  background-color: #f6f7f5;
+  width: 100%;
+}
+.team-heading {
+  border-bottom: 0.5px solid black;
+}
+.team-heading h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #6c7067;
+  padding-top: 20px;
+}
+.about-body h2 {
+  text-decoration: none;
+  color: #6c7067;
+  padding-left: 10px;
+}
+.summary {
+  padding-left: 10px;
+}
+.summary h1 {
+  text-decoration: underline;
+}
+.list-service li {
+  list-style: square;
+}
+
+/*contuct us*/
+.contact-us-page {
+  width: 100%;
+  background-color: #e0e6da;
+  background-size: cover;
+  justify-content: center;
+  float: left;
+  font-weight: 200;
+  display: flex;
+  font-family: "Mongolian Baiti";
+}
+
+.con-form {
+  width: 28%;
+  background: #f1f1f1;
+  margin-top: 20px;
+  padding-left: 90px;
+  margin-left: 20px;
+  margin-bottom: 8px;
+  box-shadow: 5px 5px 2px 2px #82877e;
+}
+#map {
+  margin-top: 20px;
+}
+contact-form h1 {
+  margin-top: 0px;
+  font-weight: 200;
+}
+.details {
+  justify-content: center;
+}
+.label {
+  font-weight: bold;
+  font-size: 16px;
+}
+#submit_button {
+  background-color: #b22222;
+  border-radius: 50px;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+input,
+textarea {
+  background-color: white;
+  color: #2f4f4f;
+  width: 250px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 2px 2px;
+  border-radius: 8px;
+}
