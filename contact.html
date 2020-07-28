@@ -43,36 +43,60 @@
         ></iframe>
       </div>
       <div class="con-form">
-        <h1>Contact Us</h1>
+        <h1>CONTACT US</h1>
         <p>
           fill out the form below to send us an email.<br />
           You will get a guaranteed response within 24 hours!
         </p>
         <form class="details">
           <div class="rowf">
-            <label class="required" for="name">First Name</label><br />
-            <input type="text" required size="30" /><br />
-            <span id=" name_validation" class="error_message"></span>
+            <br />
+            <input
+              type="text"
+              name="first name"
+              class="form-control"
+              placeholder="Enter your first name"
+              required
+            />
           </div>
           <div class="rowf">
-            <label class="required" for="name">Last Name</label><br />
-            <input type="text" required size="30" /><br />
-            <span id=" name_validation" class="error_message"></span>
+            <br />
+            <input
+              type="text"
+              name="last name"
+              class="form-control"
+              placeholder="Enter your last name"
+              required
+            />
+          </div>
+          <br />
+          <div class="rowf">
+            <input
+              type="text"
+              name="email"
+              class="form-control"
+              placeholder=" Email"
+              required
+            />
           </div>
           <div class="rowf">
-            <label class="required" for="phone ">Phone number</label><br />
-            <input type="tel" required />
-          </div>
-          <div class="rowf">
-            <label class="required" for="email">Email Address</label><br />
-            <input type="email" required />
-          </div>
-          <div class="rowf">
-            <label class="required" for="message"> Message</label><br />
-            <textarea name="comment" required rows="7" cols="30"></textarea>
+            <textarea
+              name="message "
+              class="form-control"
+              placeholder="message"
+              rows="4"
+              required
+            ></textarea>
           </div>
 
-          <input id="submit_button" type="submit" value="Submit " />
+          <div class="rowf">
+            <input
+              type="submit"
+              name=""
+              class="form-control submit"
+              value=" SEND"
+            />
+          </div>
         </form>
       </div>
     </div>
