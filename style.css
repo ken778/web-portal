@@ -39,7 +39,7 @@ body {
 }
 .banner-content-contact-us {
   margin-top: 245px;
-  background-color: rgba(176, 170, 196, 0.5);
+  background-color: #b2a2a9;
   height: 70px;
   margin-left: 5px;
   width: 55%;
@@ -65,12 +65,13 @@ body {
   background-color: rgba(176, 170, 196, 0.5);
 }
 .logo {
-  width: 100px;
+  width: 300px;
   height: 100px;
 }
 .logo img {
-  width: 100px;
-  height: 100px;
+  height: 50px;
+
+  padding: 20px 10px 10px 10px;
 }
 .mobi {
   text-decoration: none;
@@ -90,11 +91,11 @@ body {
   text-decoration: none;
   color: white;
   padding: 20px 20px 0px 5px;
-  font-weight: bolder;
+  /* font-weight: bolder;*/
 }
 #topnav ul li a:hover {
   text-decoration: underline;
-  color: rgb(10, 179, 10);
+  color: black;
 }
 .banner-content h1 {
   text-transform: uppercase;
@@ -120,7 +121,7 @@ body {
   margin-left: 10px;
 }
 .page div:first-child p {
-  font-family: Calibri;
+  font-family: "roboto";
 }
 .content div:last-child {
   padding-right: 20px;
@@ -130,7 +131,7 @@ body {
   margin-bottom: 5px;
 }
 .content div:last-child p {
-  font-family: Calibri;
+  font-family: "roboto";
 }
 .content {
   background-color: aliceblue;
@@ -155,11 +156,13 @@ body {
 }
 #post h1,
 h2 {
-  color: black;
   font-weight: bold;
   font-family: Georgia, serif;
   text-decoration: underline grey;
+
   text-transform: uppercase;
+  font-style: oblique 0deg;
+  color: #4d5152;
 }
 #post img {
   width: 100%;
@@ -202,7 +205,7 @@ h2 {
   background-color: #f7f9fc;
 }
 .services p {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "roboto";
 }
 .services h2 {
   font-family: "Roboto", sans-serif;
@@ -219,6 +222,14 @@ h2 {
   float: left;
   display: flex;
   justify-content: center;
+}
+.service-container ul li {
+  list-style-type: none;
+}
+.service-container ul > li::before {
+  content: "►";
+  color: #509e98;
+  padding-right: 1px;
 }
 .service-container-details {
   width: 40%;
@@ -245,6 +256,14 @@ h2 {
   float: left;
   display: flex;
   justify-content: center;
+}
+.service-container2 ul li {
+  list-style-type: none;
+}
+.service-container2 ul > li::before {
+  content: "►";
+  color: #509e98;
+  padding-right: 1px;
 }
 .service-container-details2 {
   width: 40%;
@@ -273,11 +292,10 @@ h2 {
   display: flex;
 }
 .coding-picture {
-  padding-left: 50px;
+  width: 30%;
+  padding-left: 5px;
 }
 .coding-picture img {
-  height: 400px;
-  width: 400px;
 }
 .serv-content {
   width: 50%;
@@ -318,13 +336,7 @@ h2 {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.footer-content div:first-child {
-  border-right: 0.5px solid rgb(109, 109, 109);
-}
-.footer-content div:last-child {
-  padding-left: 50px;
-  border-left: 0.5px solid rgb(109, 109, 109);
-}
+
 .rows {
   margin-left: 30px;
 }
@@ -335,6 +347,7 @@ h2 {
   justify-content: center;
   background-color: #005eff;
 }
+
 .footer-content div:first-child h3 {
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -344,7 +357,7 @@ h2 {
 }
 .footer-content div:first-child p {
   font-family: Times, Times New Roman, serif;
-  color: #000000;
+  color: #ffffff;
 }
 .footer-copyright {
   padding: 10px 5px 10px 10px;
@@ -354,9 +367,15 @@ h2 {
   margin-right: 50px;
   width: 20%;
 }
+.social-icons {
+  padding-left: 5em;
+}
 .social-icons .icon {
   list-style: none;
   display: inline;
+}
+.social-icons .icon {
+  padding-right: 10px;
 }
 .email {
   list-style: none;
@@ -367,7 +386,9 @@ h2 {
   text-decoration: none;
   color: white;
 }
-
+.footer-content div:last-child {
+  width: 30%;
+}
 .rows .link {
   list-style: none;
   text-decoration: none;
@@ -391,7 +412,7 @@ h2 {
 }
 /*footer icons*/
 .social-icons .icon .fa {
-  padding: 10px;
+  padding: 10px 20px 10px 10px;
   font-size: 30px;
   width: 25px;
   text-align: center;
