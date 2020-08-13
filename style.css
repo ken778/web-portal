@@ -8,9 +8,13 @@ body {
   width: 100%;
   float: left;
   background-image: url(img/PRESTASHOP12.png);
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
   height: 400px;
+}
+.main-menu {
+  padding: 1.5%;
 }
 .main-header-contact-us {
   width: 100%;
@@ -29,18 +33,26 @@ body {
   height: 400px;
 }
 
+.banner {
+  width: 100%;
+  float: left;
+}
 .banner-content {
-  margin-top: 150px;
+  float: left;
+  margin-top: 85px;
   background-color: rgba(176, 170, 196, 0.5);
   height: 150px;
   margin-left: 5px;
   width: 40%;
   padding-top: 50px;
 }
+#banner-content {
+  height: 210px;
+}
 .banner-content-contact-us {
-  margin-top: 245px;
+  margin-top: 170px;
   background-color: rgba(176, 170, 196, 0.5);
-  height: 70px;
+  height: 100px;
   margin-left: 5px;
   width: 55%;
   padding-top: 5px;
@@ -73,21 +85,41 @@ body {
 
   padding: 20px 10px 10px 10px;
 }
+#logo {
+  width: 300px;
+  height: 100px;
+}
+#logo img {
+  height: 80px;
+  padding: 20px 10px 10px 10px;
+}
 .mobi {
   text-decoration: none;
   color: white;
 }
 
+.mobile-menu {
+  display: none;
+}
+.mobile-menu {
+  background-color: rgb(187, 180, 180);
+}
+.mobile {
+  text-align: center;
+  width: 33.333%;
+  padding: 2%;
+}
 #topnav {
-  width: 70%;
-  float: right;
-  margin-left: 450px;
+  width: 100%;
+  float: left;
+}
+#topnav ul {
+  text-align: right;
 }
 #topnav ul li {
   display: inline;
 }
 #topnav ul li a {
-  float: right;
   text-decoration: none;
   color: white;
   padding: 20px 20px 0px 5px;
@@ -99,17 +131,22 @@ body {
 }
 .banner-content h1 {
   text-transform: uppercase;
-  padding-left: 20px;
+  padding: 2%;
   font-family: Georgia, serif;
   color: aliceblue;
   border-left: 5px solid black;
-  height: 100px;
+  height: 90px;
   margin-left: 50px;
+  margin-top: -4px;
 }
 .page {
   width: 100%;
   float: left;
   display: flex;
+}
+.page div:last-child {
+  width: 80%;
+  float: left;
 }
 .page div:first-child {
   background-color: aliceblue;
@@ -117,7 +154,6 @@ body {
   padding-left: 10px;
   margin-top: 5px;
   margin-right: 20px;
-
   margin-left: 10px;
 }
 .page div:first-child p {
@@ -179,7 +215,7 @@ h2 {
   background-color: #f7f9fc;
 }
 .services {
-  width: 400px;
+  width: 33.33%;
   height: 530px;
   float: left;
 }
@@ -290,6 +326,11 @@ h2 {
   width: 100%;
   float: left;
   display: flex;
+  justify-content: center;
+  padding-right: -2rem;
+}
+.coding-picture {
+  display: none;
 }
 .coding-picture {
   width: 30%;
@@ -298,11 +339,29 @@ h2 {
 .coding-picture img {
 }
 .serv-content {
-  width: 50%;
+  float: left;
+  width: 80%;
   padding-left: 10px;
-  margin-left: 10px;
+  margin-right: -8rem;
 
-  margin-right: 25px;
+  text-align: center;
+}
+.serv-container {
+  width: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgb(197, 212, 241),
+    rgb(177, 174, 243)
+  );
+}
+.serv-icons-images {
+  display: none;
+}
+.serv-content-details {
+  float: left;
+  width: 50%;
+  margin-right: -5px;
+  padding: 2%;
 }
 .serv-content h1 {
   font: small-caps bold 25px/1 sans-serif;
@@ -336,7 +395,24 @@ h2 {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-
+.social-icons .icon .fa {
+  padding: 10px 10px 10px 0px;
+  font-size: 10px;
+  width: 60px;
+  height: 50px;
+  text-align: left;
+  text-decoration: none;
+  margin-top: 5px;
+  border-radius: 50%;
+  margin-left: 1%;
+}
+.social-icons .icons a {
+  margin-left: 2px;
+}
+.footer-content div:last-child {
+  justify-content: center;
+  padding: 1%;
+}
 .rows {
   margin-left: 30px;
 }
@@ -420,6 +496,7 @@ h2 {
   margin-top: 5px;
   border-radius: 50%;
 }
+
 .social-icons .icon .fa-facebook {
   background: #3b5998;
   color: white;
@@ -465,7 +542,8 @@ h2 {
 }
 .column {
   float: left;
-  width: 22.5%;
+  display: flex;
+  width: 25%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
@@ -483,6 +561,11 @@ h2 {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 50px;
+  text-align: center;
+}
+#card-container {
+  width: 100%;
+  text-align: center;
 }
 
 .container {
@@ -495,7 +578,14 @@ h2 {
   clear: both;
   display: table;
 }
-
+.row .card {
+  margin-left: 17px;
+}
+.row {
+  width: 100%;
+  float: left;
+  display: flex;
+}
 .about-body {
   background-color: #f6f7f5;
   width: 100%;
@@ -546,7 +636,7 @@ h2 {
 }
 .banner-content-contact-us {
 }
-contact-form h1 {
+.contact-form h1 {
   margin-top: 0px;
 
   font-weight: 200;
@@ -565,6 +655,16 @@ textarea {
   color: black;
   margin-bottom: 16px;
   font-size: 18px;
+}
+#form {
+  margin-left: -5rem;
+  margin-right: 2rem;
+}
+.con-form h1 {
+  margin-left: -5rem;
+}
+.con-form p {
+  margin-left: -5rem;
 }
 .con-form {
   width: 28%;

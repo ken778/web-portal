@@ -1,0 +1,254 @@
+@media only screen and (max-width: 600px) {
+  .page,
+  .page div:last-child,
+  .serv-container,
+  .serv-content,
+  .service-container,
+  .service-container2,
+  .sub-middle-page,
+  .services,
+  .footer-content,
+  .contact-us-page {
+    display: block;
+  }
+  .mobile-menu {
+    display: flex;
+    width: 100%;
+    float: left;
+    position: fixed;
+    bottom: 0;
+  }
+  .footer-content div:last-child {
+    width: 80%;
+  }
+  .icon {
+    padding-left: -2rem;
+  }
+  .social-icons .icon .fa {
+    padding: 10px 20px 10px 10px;
+    font-size: 15px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 5px;
+    border-radius: 50%;
+  }
+  .footer-content div:last-child {
+    margin-left: 3 rem;
+
+    text-align: center;
+  }
+  .serv-container {
+    float: left;
+  }
+  .coding-picture img {
+    width: 400px;
+    height: 300px;
+  }
+  .coding-picture {
+    text-align: center;
+  }
+  .discover {
+    margin-top: -30px;
+    padding-top: -10px;
+  }
+  .innovation {
+    margin-bottom: -10px;
+  }
+  #post {
+    height: 350px;
+  }
+  .page div:first-child,
+  .page div:last-child,
+  .main-header,
+  .topnav-container,
+  .coding-picture,
+  .serv-content,
+  .serv-content-details,
+  .service-container-details,
+  .serv-content-details-picture,
+  .service-container-details2,
+  .sub-middle-page,
+  .footer-content,
+  .about-body,
+  .abtservices,
+  .contact-us-page {
+    width: 100%;
+  }
+
+  .middle-page {
+    width: 100%;
+  }
+  .discover-image img,
+  #topnav,
+  .page,
+  .serv-icons-images,
+  .coding-picture,
+  .scrolling-text,
+  .sub-middle-abtpage div:first-child img,
+  #map {
+    display: none;
+  }
+  .sub-middle-abtpage div:first-child {
+    height: 200px;
+  }
+  .sub-middle-page div:nth-child(3),
+  .sub-middle-page div:nth-child(2),
+  .sub-middle-page div:nth-child(1) {
+    width: 94%;
+    text-align: center;
+  }
+  .sub-middle-page div:nth-child(3) img {
+    margin-left: -1rem;
+  }
+  .sub-middle-page div:nth-child(2),
+  .sub-middle-page div:nth-child(1) {
+    margin-left: 0.5rem;
+  }
+  .serv-content-details-picture img {
+    width: 80%;
+    margin-left: 2.5rem;
+  }
+  .service-container-picture2 img {
+    width: 50%;
+  }
+  .service-container-picture2 {
+    width: 100%;
+    margin-left: -0rem;
+  }
+  .service-container-picture2 img {
+    width: 80%;
+    height: 80%;
+    margin-left: 2.5rem;
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .serv-content-details,
+  .service-container-details2,
+  .service-container-details {
+    float: left;
+    text-align: center;
+  }
+  .serv-content-details,
+  .service-container-details,
+  .service-container-details2 p,
+  .service-container-details p {
+    padding: 2%;
+  }
+  .serv-content h1 {
+    padding: 3%;
+  }
+  .service-container-details,
+  .service-container-details2 h2 {
+    padding: 1%;
+  }
+  .serv-content {
+    width: 100%;
+    margin-left: -10px;
+  }
+  .serv-content-details {
+    width: 96%;
+  }
+  .content {
+    width: 100%;
+    margin-left: -5px;
+  }
+  .banner-content {
+    width: 98%;
+  }
+  .service-container-details {
+    width: 98%;
+  }
+  .column {
+    width: 90%;
+
+    margin-left: 1rem;
+  }
+  .row {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .row div:first-child {
+    margin-top: 1px;
+    height: 320px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20%;
+    width: 100%;
+    padding-bottom: -1rem;
+  }
+  #card-container {
+    height: 90px;
+  }
+  .card img {
+    height: 100px;
+    width: 100px;
+    margin-left: 70px;
+    margin-right: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  .card i {
+    padding-top: -1rem;
+  }
+  .sub-middle-abtpage {
+    display: block;
+  }
+  .rows {
+    width: 90%;
+  }
+  .footer-content div:nth-child(2),
+  .footer-content div:last-child {
+    margin-left: 0px;
+  }
+  .footer-container {
+    margin-bottom: 3rem;
+  }
+  #banner-content-contact-us {
+    margin-top: 90px;
+    height: 200px;
+    padding-top: 2px;
+  }
+  .about-us-header {
+    text-align: center;
+  }
+
+  .abtservices img {
+    width: 60px;
+    height: 60px;
+  }
+  .servive-picture {
+    display: none;
+    height: 100px;
+    width: 100px;
+  }
+  .sub-middle-abtpage div:nth-child(1) p {
+    padding: 1% 3% 4% 2%;
+    margin-bottom: -1.5rem;
+  }
+  .sub-middle-abtpage div:nth-child(3) p {
+    padding: 2% 2% 2% 3%;
+  }
+
+  #banner-content-contact-us {
+    margin-top: 85px;
+    background-color: rgba(176, 170, 196, 0.5);
+    height: 250px;
+    margin-left: 5px;
+    width: 55%;
+    padding-top: 5px;
+    margin-left: 10px;
+  }
+  .con-form {
+    width: 70%;
+    margin-left: 10rem;
+    padding-bottom: 2px;
+  }
+  .rowf {
+  }
+}

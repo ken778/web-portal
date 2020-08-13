@@ -4,6 +4,34 @@
   <head>
     <meta charset="utf-8" />
     <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="responsive.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Add icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
     <!-- Add icon library -->
     <link
       rel="stylesheet"
@@ -15,19 +43,36 @@
   <body>
     <header class="main-header-contact-us">
       <div class="topnav-container">
-        <div class="logo">
+        <div class="logo" id="logo">
           <img src="img/logo.png" alt="logo image" />
         </div>
-        <div id="topnav">
+        <div id="topnav" class="main-menu">
           <ul>
-            <li><a href="contact.html">CONTACT US</a></li>
-            <li><a href="about us.html">ABOUT US</a></li>
             <li><a href="index.html">HOME</a></li>
+            <li><a href="about us.html">ABOUT US</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
           </ul>
         </div>
       </div>
+      <nav class="mobile-menu">
+        <div class="mobile">
+          <a href="index.html"
+            ><span class="glyphicon glyphicon-home"></span
+          ></a>
+        </div>
+        <div class="mobile">
+          <a href="about us.html"
+            ><span class="glyphicon glyphicon-user"></span
+          ></a>
+        </div>
+        <div class="mobile">
+          <a href="contact.html"
+            ><span class="glyphicon glyphicon-earphone"></span
+          ></a>
+        </div>
+      </nav>
       <div class="banner">
-        <div class="banner-content-contact-us">
+        <div class="banner-content-contact-us" id="banner-content-contact-us">
           <h1>
             get in touch with mobitech team
           </h1>
@@ -36,7 +81,6 @@
     </header>
     <div class="contact-us-page">
       <!--The third party map integration-->
-
       <div id="map">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1824.1247161937335!2d29.485851557945196!3d-23.880772243544804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec6d9bfd91c0dd5%3A0xd2abdd2c77a29dc4!2sValencia%20St%2C%20Polokwane%2C%200713!5e0!3m2!1sen!2sza!4v1594760194212!5m2!1sen!2sza"
@@ -48,7 +92,7 @@
           fill out the form below to send us an email.<br />
           You will get a guaranteed response within 24 hours!
         </p>
-        <form class="details">
+        <form class="details" id="form">
           <div class="rowf">
             <br />
             <input

@@ -4,7 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
     <script src="https://use.fontawesome.com/61e15d468c.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- Add icon library -->
     <link
       rel="stylesheet"
@@ -28,21 +43,36 @@
   <body>
     <header class="main-header">
       <div class="topnav-container">
-        <div class="logo">
+        <div class="logo" id="logo">
           <img src="img/logo.png" alt="logo image" />
         </div>
-
-        <div id="topnav">
+        <div id="topnav" class="main-menu">
           <ul>
-            <li><a href="contact.html">CONTACT US</a></li>
-            <li><a href="about us.html">ABOUT US</a></li>
             <li><a href="index.html">HOME</a></li>
+            <li><a href="about us.html">ABOUT US</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
           </ul>
         </div>
       </div>
-
+      <nav class="mobile-menu">
+        <div class="mobile">
+          <a href="index.html"
+            ><span class="glyphicon glyphicon-home"></span
+          ></a>
+        </div>
+        <div class="mobile">
+          <a href="about us.html"
+            ><span class="glyphicon glyphicon-user"></span
+          ></a>
+        </div>
+        <div class="mobile">
+          <a href="contact.html"
+            ><span class="glyphicon glyphicon-earphone"></span
+          ></a>
+        </div>
+      </nav>
       <div class="banner">
-        <div class="banner-content">
+        <div class="banner-content" id="banner-content">
           <h1>
             we transform your ideas<br />
             into real mobile apps
@@ -67,11 +97,11 @@
         </p>
       </div>
       <div class="content">
-        <div id="post">
+        <div id="post" class="innovation">
           <h2>innovation</h2>
           <img src="img/KWENA.jpg" alt="innovation" />
         </div>
-        <div id="post">
+        <div id="post" class="discover">
           <h1>discover</h1>
           <p>
             Our approach to innovation begins with in-depth stakeholder
@@ -92,7 +122,7 @@
 
     <div class="serv-container">
       <div class="coding-picture">
-        <img src="img/codin.png" alt="coding" />
+        <img class="picture" src="img/codin.png" alt="coding" />
       </div>
       <div class="serv-icons-images">
         <div class="icon-image">
@@ -137,6 +167,7 @@
         </div>
       </div>
     </div>
+
     <div class="service-container">
       <div class="service-container-details">
         <h2>custom mobile development</h2>
@@ -193,7 +224,11 @@
             MobiTech takes into consideration your target market’s needs and
             expectations
           </p>
-          <img src="img/usercentered.jpg" alt="user centered" />
+          <img
+            src="img/usercentered.jpg"
+            alt="user centered"
+            class="user-centered"
+          />
         </div>
       </div>
     </div>
