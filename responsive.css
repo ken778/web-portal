@@ -212,6 +212,9 @@
   .footer-container {
     margin-bottom: 3.5rem;
   }
+  .row div:first-child {
+    margin-top: 15px;
+  }
   #banner-content-contact-us {
     margin-top: 90px;
     height: 200px;
