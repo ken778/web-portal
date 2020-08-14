@@ -18,6 +18,9 @@
     position: fixed;
     bottom: 0;
   }
+  .mobile {
+    font-size: 2rem;
+  }
   .footer-content div:last-child {
     width: 80%;
   }
@@ -207,7 +210,7 @@
     margin-left: 0px;
   }
   .footer-container {
-    margin-bottom: 3rem;
+    margin-bottom: 3.5rem;
   }
   #banner-content-contact-us {
     margin-top: 90px;
